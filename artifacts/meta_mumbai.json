@@ -1,0 +1,14 @@
+{
+  "city": "Mumbai",
+  "n_days": 3653,
+  "features": [
+    "value",
+    "rolling_7d_mean",
+    "rolling_7d_std",
+    "dayofyear",
+    "dayofweek"
+  ],
+  "ts_file": "artifacts\\ts_prepared_mumbai.csv",
+  "model_file": "artifacts\\model_mumbai.joblib",
+  "scaler_file": "artifacts\\scaler_mumbai.joblib"
+}

@@ -1,0 +1,14 @@
+{
+  "city": "Kolkata",
+  "n_days": 3653,
+  "features": [
+    "value",
+    "rolling_7d_mean",
+    "rolling_7d_std",
+    "dayofyear",
+    "dayofweek"
+  ],
+  "ts_file": "artifacts\\ts_prepared_kolkata.csv",
+  "model_file": "artifacts\\model_kolkata.joblib",
+  "scaler_file": "artifacts\\scaler_kolkata.joblib"
+}

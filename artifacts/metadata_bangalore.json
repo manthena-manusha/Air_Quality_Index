@@ -1,0 +1,16 @@
+{
+  "data_path": "C:\\Users\\manus\\Air_Quality_Index\\city_day.csv",
+  "city": "Bangalore",
+  "trained_on": "2025-11-26T06:47:51.367299Z",
+  "n_days": 3653,
+  "features": [
+    "value",
+    "rolling_7d_mean",
+    "rolling_7d_std",
+    "dayofyear",
+    "dayofweek"
+  ],
+  "export_csv": "artifacts\\ts_prepared_bangalore.csv",
+  "model_path": "artifacts\\model_bangalore.joblib",
+  "scaler_path": "artifacts\\scaler_bangalore.joblib"
+}

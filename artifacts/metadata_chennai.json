@@ -1,0 +1,16 @@
+{
+  "data_path": "C:\\Users\\manus\\Air_Quality_Index\\city_day.csv",
+  "city": "Chennai",
+  "trained_on": "2025-11-26T06:47:51.819147Z",
+  "n_days": 3653,
+  "features": [
+    "value",
+    "rolling_7d_mean",
+    "rolling_7d_std",
+    "dayofyear",
+    "dayofweek"
+  ],
+  "export_csv": "artifacts\\ts_prepared_chennai.csv",
+  "model_path": "artifacts\\model_chennai.joblib",
+  "scaler_path": "artifacts\\scaler_chennai.joblib"
+}
